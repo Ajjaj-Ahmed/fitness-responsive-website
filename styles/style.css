@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: black;
   color: white;
   max-width: 1440px;
@@ -12,45 +13,107 @@ body{
 }
 
 /* nav section */
-header{
+.header-section{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  border-radius: 16px;
+}
+header {
   max-width: 1060px;
   margin: 0 auto;
 }
-.nav-container{
+
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
 }
-.nav-links{
+
+.nav-links {
   display: flex;
   gap: 3rem;
   list-style: none;
-  padding:4px;
+  padding: 4px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
 
 }
-.nav-link a{
+
+.nav-link a {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: 1.2rem;
   padding: 8px 20px;
-  
+
 }
-.home-btn{
+
+.home-btn {
   border-radius: 16px;
   background-color: orangered;
 }
 
-.nav-title{
+.nav-title {
   font-size: 2.25rem;
   font-weight: 800;
   color: rgb(230, 83, 60);
 }
-.hambur-menu{
+
+.hambur-menu {
   display: none;
+  /* border: 1px solid red; */
 }
 
 /* nav section end */
+
+/* banner container */
+.banner-container {
+  max-height: 580px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  width: 55%;
+}
+
+.banner-img {
+  width: 34%;
+  height: 100%;
+}
+
+
+.banner-title {
+  font-size: 4.9rem;
+  font-weight: 900;
+  margin-top: 1.7rem;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem;
+  margin-bottom: 1.8rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.banner-join-btn{
+  padding: 1rem 2.5rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-right: 0.8rem;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
+.banner-download-btn{
+  padding: 1rem 2.5rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: white;
+}
