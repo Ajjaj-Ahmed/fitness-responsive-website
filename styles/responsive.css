@@ -1,0 +1,8 @@
+@media screen and (max-width:576px) {
+  .links-container{
+    display: none;
+  }
+  .hambur-menu{
+    display: block;
+  }
+}
