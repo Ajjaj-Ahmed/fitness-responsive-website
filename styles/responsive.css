@@ -1,6 +1,6 @@
 @media screen and (max-width:576px) {
   .nav-container{
-   margin: 30px 10px;
+   padding: 3rem 1.25rem;
   }
   .links-container{
     display: none;
@@ -8,4 +8,39 @@
   .hambur-menu{
     display: block;
   }
+  .banner-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 1.25rem;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+  
+  .banner-description{
+    width: 60%;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .tutorial-section {
+    left: 0.8rem;
+    bottom: 15.5rem;
+  }
+  .workout-section {
+    right: 6rem;
+    top: 3rem;
+  }
+  .banner-join-btn {
+    padding: 1rem 2rem;
+  }
+  
+  .banner-download-btn {
+    padding: 1rem 2rem;
+  }
+  
 }
