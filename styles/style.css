@@ -174,3 +174,58 @@ header {
   right: -2rem;
   top: 9rem;
 }
+
+/* End of banner section */
+
+/* Start of habits section */
+
+.habit-container {
+  max-width: 1044px;
+  margin: 0 auto;
+}
+
+.habit-title-container {
+  max-width: 670px;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+
+.habit-title-container h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.habit-title-container p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 4rem;
+  margin-top: 14px;
+  font-weight: 400;
+}
+
+.habit-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.habit-img-card {
+  max-width: 230px;
+  text-align: center;
+}
+
+.habit-image {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  margin-bottom: 1.8rem;
+}
+
+.habit-img-card h2{
+  font-size: 1.13rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.habit-img-card p{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
