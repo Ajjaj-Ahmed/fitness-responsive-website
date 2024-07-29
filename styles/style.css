@@ -266,3 +266,125 @@ font-weight: 400;
 margin-bottom: 2rem;
 color: rgba(255, 255, 255, 0.5);
 } 
+
+/* Training exercise */
+.training-graid-img{
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+}
+.container-one{
+  height: 250px;
+  width: 25%;
+  position: relative;
+}
+.gradient-one{
+  height: 100%;
+  width: 100%;
+  background: lightgreen;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-one-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container-two{
+  height: 250px;
+  width: 50%;
+  position: relative;
+}
+.gradient-two{
+  height: 100%;
+  width: 100%;
+  background: lightgreen;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-two-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container-three{
+  height: 250px;
+  width: 25%;
+  position: relative;
+}
+.gradient-three{
+  height: 100%;
+  width: 100%;
+  background: lightgreen;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-three-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container-four{
+  height: 250px;
+  width: 37%;
+  position: relative;
+}
+.gradient-four{
+  height: 100%;
+  width: 100%;
+  background: lightgreen;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-four-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container-five{
+  height: 250px;
+  width: 26%;
+  position: relative;
+}
+.gradient-five{
+  height: 100%;
+  width: 100%;
+  background: lightgreen;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-five-img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  
+}
+.container-six{
+  height: 250px;
+  width: 37%;
+  position: relative;
+}
+.gradient-six{
+  height: 100%;
+  width: 100%;
+  background: rgb(112, 204, 93);
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-six-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
