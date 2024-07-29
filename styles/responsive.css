@@ -65,5 +65,14 @@
 .extra-mile-img-container{
   max-width: 100%;
 }
-  
+/* footer */
+.footer-container{
+  padding-left: 1.25rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-description{
+ margin-bottom: 2rem;
+}
 }
