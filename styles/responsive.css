@@ -65,6 +65,18 @@
 .extra-mile-img-container{
   max-width: 100%;
 }
+
+/* trainer */
+/* trainer */
+.teammate-container{
+  padding: 20px;
+}
+.team-grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.25rem;
+  justify-content: center;
+}
 /* footer */
 .footer-container{
   padding-left: 1.25rem;
