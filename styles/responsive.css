@@ -72,12 +72,15 @@
 }
 .calculator-container {
   flex-direction: column;
-  margin:1.25rem;
-  gap: 1.25rem;
+  gap: 2.5rem;
+  margin-top: 2rem;
 }
 .bmi-headings {
   font-size: 1rem;
   font-weight: 900;
+}
+.bmi-title-container h2 {
+  font-size: 2rem
 }
 .bmi-partONe {
   width: 100%;
@@ -86,10 +89,10 @@
 .bmi-partTwo {
   width: 100%;
 }
-.input-container{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+.bmi-partONe table {
+  margin-top: 1.5rem;
 }
+
 /* trainer */
 .teammate-container{
   padding: 20px;
