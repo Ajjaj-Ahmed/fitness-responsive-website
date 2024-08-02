@@ -65,7 +65,14 @@
 .extra-mile-img-container{
   max-width: 100%;
 }
-
+/* Training and exercise */
+.training-exercise-container {
+  padding: 1.25rem;
+}
+.training-img-grid{
+  grid-template-columns: 1fr 1fr;
+ 
+}
 /* bmi calculator */
 .bmi-calculator-container {
   padding: 0 1.25rem;

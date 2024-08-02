@@ -297,69 +297,75 @@ header {
 }
 
 .training-img-grid{
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 0;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(2,200px);
+  grid-template-areas: 
+  "one one one two two two two two two three three three"
+  "four four four four four five five five six six six six";
+ 
 }
 
 .img-grid-1 {
-  width: 100%;
-  max-height: 200px;
+  grid-area: one;
+  background-image:linear-gradient(120deg,rgba(6, 255, 210, 0.25),
+  rgba(6, 255, 210, 0.25)),
+  url('../images/exercise1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.img-grid-1 img {
-  height: 100%;
-}
 .img-grid-2 {
-  width: 100%;
-  max-height: 200px;
-  
+  grid-area: two;
+  background-image:linear-gradient(120deg,rgba(255, 0, 0, 0.3),
+  rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
 }
 
-.img-grid-2 img {
-  height: 100%;
-  object-fit: cover;
-}
 .img-grid-3 {
-  width: 100%;
-  max-height: 200px;
+  grid-area: three;
+  background-image:linear-gradient(120deg,rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5))
+   ,url('../images/exercise3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.img-grid-3 img {
-
-  height: 100%;
-  object-fit: cover;
-}
 .img-grid-4 {
-  width: 100%;
-  max-height: 200px;
+  grid-area: four;
+  background-image:linear-gradient(120deg,rgba(0, 0, 0, 0.5)
+  ,rgba(0, 0, 0, 0.5))
+   ,url('../images/exercise4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.img-grid-4 img {
-
-  height: 100%;
-  object-fit: cover;
-}
 .img-grid-5 {
-  width: 100%;
-  max-height: 200px;
+  background-image:linear-gradient(120deg,rgba(66, 255, 0, 0.3)
+  ,rgba(66, 255, 0, 0.3)) ,url('../images/exercise5.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: five;
 }
 
-.img-grid-5 img {
-
-  height: 100%;
-  object-fit: cover;
-}
 .img-grid-6 {
-  width: 100%;
-  max-height: 200px;
+  background-image:linear-gradient(120deg,rgba(0, 71, 255, 0.3),
+  rgba(0, 71, 255, 0.3)) ,url('../images/exercise6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: six;
 }
 
-.img-grid-6 img {
-  
-  height: 100%;
-  object-fit: cover;
-}
+
 
 /* Bmi calculator */
 
