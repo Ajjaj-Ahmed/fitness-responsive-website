@@ -515,6 +515,67 @@ input[type=text] {
 }
 
 
+
+
+
+
+
+/* customer reviews */
+.customer-review{
+  width: 100%;
+  background: #212121;
+  margin-bottom: 4rem;
+}
+.review-title{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.review-container{
+  width: 1066px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+.review-part-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.review-part-two{
+  display: flex;
+  justify-content: space-between;
+}
+.review-text-container{
+  width: 30%;
+  padding: 10px;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #EDEDED;
+  color:gray;
+  text-align: center;
+}
+.review-text-container h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.review-text-container p{
+  font-size: 1rem;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
 /* footer Container */
 footer {
   max-width: 1440px;

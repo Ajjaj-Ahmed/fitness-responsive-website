@@ -110,6 +110,31 @@
   gap: 1.25rem;
   justify-content: center;
 }
+
+/* customer reviews */
+.customer-review{
+  padding: 1.25rem;
+}
+.review-title{
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.review-container{
+  width: 90%;
+}
+.review-part-one{
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.review-part-two{
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.review-text-container{
+  width:100%;
+}
 /* footer */
 .footer-container{
   padding-left: 1.25rem;
