@@ -378,6 +378,7 @@ header {
 .bmi-title-container {
   margin: 0 auto;
   max-width: 670px;
+  padding-top: 2rem;
 }
 
 .bmi-title-container h2 {
@@ -463,6 +464,8 @@ input[type=text] {
 
 /* bmi calculator */
 
+
+
 /* trainer team container */
 .teammate-container {
   max-width: 1066px;
@@ -472,7 +475,6 @@ input[type=text] {
 .teammate-title-box {
   max-width: 670px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .team-grid-container {
