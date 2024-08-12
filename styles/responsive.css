@@ -20,7 +20,9 @@
     font-size: 2.25rem;
     margin-bottom: 1.75rem;
   }
-  
+  .shape-style{
+    font-size: 3.5rem;
+  }
   .banner-description{
     width: 60%;
   }
