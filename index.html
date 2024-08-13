@@ -189,8 +189,19 @@
             <input type="text" placeholder="Height / cm">
             <input type="text" placeholder="weight / cm">
             <input type="text" placeholder="age">
-            <input type="text" placeholder="sex">
-            <input id="input-activity" type="text" placeholder="Select and activity factor">
+            
+             <select class="select-box">
+              <option value="" disabled selected>Sex</option>
+              <option value="Male">Male</option>
+              <option value="female">Female</option>
+             </select>
+             <select class="select-box" id="input-activity" >
+              <option value="" disabled selected>Select and activity factor</option>
+              <option value="cricket">Cricket</option>
+              <option value="football">Football</option>
+             </select>
+
+            <!-- <input id="input-activity" type="text" placeholder="Select and activity factor"> -->
           </div>
           <button class="banner-join-btn">Calculate</button>
         </div>

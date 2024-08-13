@@ -444,13 +444,16 @@ td {
 }
 
 
-input[type=text] {
+input[type=text],.select-box {
   padding: 12px 0px 12px 20px;
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
-
+.select-box{
+  color: gray;
+  background: rgba(255, 255, 255, 0.1);
+}
 .input-container {
   display: grid;
   grid-template-columns: repeat(2, auto);
