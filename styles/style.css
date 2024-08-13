@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +11,7 @@ body {
   background-color: black;
   color: white;
   margin: 0 auto;
+  font-family: "Inter", sans-serif;
   /* border: 2px solid white; */
 }
 
@@ -81,7 +85,12 @@ header {
 .banner-content {
   width: 55%;
 }
-
+.shape-style{
+  font-family: "Grey Qo", cursive; 
+  display: inline-block;
+  font-size: 7rem;
+  padding-right: 5px;
+}
 .banner-img {
   width: 34%;
   height: 100%;
@@ -444,11 +453,16 @@ td {
 }
 
 
+<<<<<<< HEAD
 input[type=text],.select-box {
+=======
+input[type=text] ,.select-input{
+>>>>>>> 97d14882dfcb9fd374651e7cb025fa7fa334f340
   padding: 12px 0px 12px 20px;
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
 }
 .select-box{
   color: gray;
