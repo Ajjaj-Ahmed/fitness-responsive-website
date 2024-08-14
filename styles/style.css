@@ -453,11 +453,7 @@ td {
 }
 
 
-<<<<<<< HEAD
 input[type=text],.select-box {
-=======
-input[type=text] ,.select-input{
->>>>>>> 97d14882dfcb9fd374651e7cb025fa7fa334f340
   padding: 12px 0px 12px 20px;
   border: none;
   border-radius: 8px;
